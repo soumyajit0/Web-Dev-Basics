@@ -1,0 +1,72 @@
+p{
+  font-family: Roboto, Arial;
+  margin: 0;
+}
+
+.profile-vertical{
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.profile-pic{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pic{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50px;
+}
+
+.profile-details{
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 350px;
+}
+
+.name{
+  font-size: x-large;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.country{
+  font-size: x-large;
+  color: rgb(95, 95, 95);;
+  margin-bottom: 8px;
+}
+
+.popular{
+  color: rgb(95, 95, 95);
+  font-size: large;
+}
+
+.follow-button{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.follow{
+  cursor: pointer;
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.follow:hover{
+  background-color: #198ad1;
+}
+
+.follow:active{
+  background-color: #1472ac;
+}
