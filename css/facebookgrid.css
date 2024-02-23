@@ -1,0 +1,69 @@
+p{
+  font-family: Arial;
+}
+
+.profile-card{
+  margin-top: 15px;
+  /* margin-left: 15px; */
+  border-radius: 3px;
+  /* display: inline-block; */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.15s;
+}
+
+.profile-card:hover{
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.profile-pic{
+  height: 221px;
+  object-fit: cover;
+  object-position: top;
+  width: 221px;
+  margin-bottom: 0px;
+}
+
+.contents{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.name{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.friends{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: rgb(95, 95, 95);
+}
+
+.add-friend{
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #1d79f2;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: medium;
+  transition: background-color 0.15s;
+}
+
+.add-friend:hover{
+  background-color: #0063e4;
+}
+
+.add-friend:active{
+  background-color: #0053be;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 221px 221px 221px;
+  column-gap: 10px;
+}
