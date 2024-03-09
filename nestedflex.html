@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nested Flex</title>
+</head>
+<body>
+  <div style="display: flex; flex-direction: row; height: 50px;">
+    <div style="background-color: pink; width: 100px; display: flex; flex-direction: row; justify-content: center; align-items: center;">
+      <p style="color: white; background-color: black;">item1</p>
+    </div>
+    <div style="background-color: lightblue; width: 200px;"></div>
+  </div>
+
+  <br>
+
+  <div style="display: flex; flex-direction: row; height: 50px;">
+    <div style="background-color: pink; width: 100px;"></div>
+    <div style="background-color: lightblue; width: 200px; display: flex;flex-direction: column;">
+      <div style="display: flex; flex-direction: row; justify-content: space-between;">
+        <div>row1</div>
+      </div>
+      <div style="display: flex; flex-direction: row; justify-content: space-between;">
+        <div style="color: white; background-color: black;">row2</div>
+        <div style="color: white; background-color: black;">row2</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

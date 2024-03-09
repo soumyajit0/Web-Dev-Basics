@@ -1,0 +1,77 @@
+.tweet{
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-col-1{
+  padding: 10px;
+}
+
+.profile-pic{
+  border-radius: 30px;
+  width: 60px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.main-col-2{
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name{
+  font-family: Roboto, sans-serif;
+  font-weight: 800;
+  color: black;
+}
+
+.username{
+  margin-left: 5px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgb(94, 94, 94);
+}
+
+.tweet-text{
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+}
+
+.link{
+  border-radius: 20px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+}
+
+.link-pic{
+  background-color: lightgray;
+  flex: 1;
+}
+
+.link-text{
+  margin-left: 10px;
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.link-site{
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgb(94, 94, 94);
+}
+
+.link-title{
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+}
