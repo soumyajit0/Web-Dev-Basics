@@ -1,0 +1,112 @@
+.card{
+  width: 343px;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.15s;
+}
+
+.card:hover{
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.thumbnail{
+  border-radius: 10px;
+  width: 343px;
+  height: 193px;
+  object-fit: cover;
+}
+
+.bottom{
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-hov{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.logo{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.title{
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.channel{
+  font-family: Roboto, sans-serif;
+  color: rgb(90, 90, 90);
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+
+.details{
+  font-family: Roboto, sans-serif;
+  color: rgb(90, 90, 90);
+  padding: 10px;
+  padding-top: 0px;
+  font-size: 15px;
+}
+
+.rel{
+  position: relative;
+}
+
+.abs-time{
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.abs-channel{
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.logo-hov:hover + .abs-channel{
+  opacity: 1;
+}
+
+.name{
+  font-family: Roboto, sans-serif;
+  white-space: nowrap;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.subs{
+  font-family: Roboto, sans-serif;
+  white-space: nowrap;
+  padding-left: 10px;
+}
